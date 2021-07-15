@@ -41,6 +41,9 @@ function calScore(){
             hResult.innerHTML = `${hName.value} he has scored ${scores} points he has failed and he has to try again next year`;
             hResult.style.color = "red";
         }
+        else{
+            hResult.style.color = "#06aa29";
+        }
     }
 
 
